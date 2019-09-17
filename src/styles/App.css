@@ -1,0 +1,31 @@
+button {
+  width: 3rem;
+  background-color: #1fd82f;
+  color: #ffffff;
+  align-self: center;
+  font-size: 1rem;
+  padding: 10px;
+  margin-left: 1rem;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+#cancelButton {
+  width: 6rem;
+  background-color: #ff0000;
+  color: #ffffff;
+  font-size: 1rem;
+  align-self: center;
+  padding: 10px;
+  margin-left: 1rem;
+}
+
+#cancelButton:hover {
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #000000;
+}
