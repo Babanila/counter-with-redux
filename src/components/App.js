@@ -12,7 +12,7 @@ function App() {
       <h3>Counter {counter}</h3>
       <button onClick={() => dispatch(increment())}>+</button>
       <button onClick={() => dispatch(decrement())}>-</button>
-      <button id="cancelButton" onClick={() => dispatch(cancel())}>
+      <button className="cancelButton" onClick={() => dispatch(cancel())}>
         reset
       </button>
     </div>

@@ -14,7 +14,7 @@ button:hover {
   color: #000000;
 }
 
-#cancelButton {
+.cancelButton {
   width: 6rem;
   background-color: #ff0000;
   color: #ffffff;
@@ -22,10 +22,4 @@ button:hover {
   align-self: center;
   padding: 10px;
   margin-left: 1rem;
-}
-
-#cancelButton:hover {
-  cursor: pointer;
-  background-color: #ffffff;
-  color: #000000;
 }
