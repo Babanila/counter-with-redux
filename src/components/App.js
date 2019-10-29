@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <h1>Simple Counter App</h1>
-      <h3>Count: {counter}</h3>
+      <h3>Count: {counter.count}</h3>
       <ButtonGroup />
     </div>
   )

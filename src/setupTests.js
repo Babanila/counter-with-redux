@@ -5,3 +5,12 @@ import "jest-styled-components"
 
 // React 16 Enzyme adapter
 configure({ adapter: new Adapter() })
+
+// React-Redux mock
+jest.mock("react-redux", () => ({
+  useDispatch: () => {},
+  useSelector: () => ({
+    count: 0,
+    loggedIn: false
+  })
+}))

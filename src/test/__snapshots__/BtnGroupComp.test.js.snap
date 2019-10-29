@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BtnGroupComp Test should render and match the snapshot 1`] = `
+<div>
+  <button
+    onClick={[Function]}
+  >
+    +
+  </button>
+  <button
+    onClick={[Function]}
+  >
+    -
+  </button>
+  <button
+    className="cancelButton"
+    onClick={[Function]}
+  >
+    reset
+  </button>
+</div>
+`;
