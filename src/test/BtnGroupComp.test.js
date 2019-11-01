@@ -1,9 +1,10 @@
 import React from "react"
-import { shallow } from "enzyme"
+import { shallow, mount } from "enzyme"
 import BtnGroupComp from "../components/BtnGroupComp"
 
 describe("BtnGroupComp Test", () => {
   let wrapper
+  let handleClick = jest.fn()
 
   beforeEach(() => {
     wrapper = shallow(<BtnGroupComp />)
@@ -22,5 +23,11 @@ describe("BtnGroupComp Test", () => {
   it("should render the exact number of components", () => {
     expect(wrapper.find("div").length).toBe(1)
     expect(wrapper.find("button").length).toBe(3)
+  })
+
+  it("should show the default text on buttons", () => {
+    expect(wrapper.find(".plus").text()).toEqual("+")
+    expect(wrapper.find(".minus").text()).toEqual("-")
+    expect(wrapper.find(".cancelButton").text()).toEqual("reset")
   })
 })
